@@ -701,8 +701,8 @@ FUNCTION {bst.access.post}
 
 % Show or Hide DOI.  If non-zero, DOI is displayed. Otherwise, DOI is suppressed. 
 FUNCTION {bst.show.doi}
-{ #1 }    % non-#0 -> Show DOI field (default)
-% { #0 }    % #0 -> Not show DOI field.
+% { #1 }    % non-#0 -> Show DOI field (default)
+{ #0 }    % #0 -> Not show DOI field.
 
 % The string before DOI:
 %
